@@ -16,7 +16,6 @@ from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
 from app.config import settings
-from app.db.model import engine
 from app.routes import api_router_v1
 
 logging.config.fileConfig("logging.conf", disable_existing_loggers=False)

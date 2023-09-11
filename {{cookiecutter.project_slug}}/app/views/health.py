@@ -16,5 +16,5 @@ async def health():
     """
     Retorno unico, podendo variar o padrão de acordo com o serviço consumidor.
     """
-    logger.info('api is up!')
+    logger.info("api is up!")
     return {"message": "OK"}
