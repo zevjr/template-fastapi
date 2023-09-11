@@ -19,15 +19,13 @@ jobs:
       - name: Install Python Dependencies
         run: pip install poetry cookiecutter
 
-      - name: Check
-        run: ls -l
-
       - name: CookieCutter Teste
         run: cookiecutter --no-input .
 
       - name: Install project
         run: |
-          cd name_of_the_project
+          ls -l
+          cd name-of-the-project
           poetry install --without doc
 
       - name: Run tests
