@@ -1,4 +1,4 @@
-site_name: Mais Todos
+site_name: '{{cookiecutter.project_name}}'
 repo_url: '{{cookiecutter.gh_url_project}}'
 repo_name: '{{cookiecutter.gh_name_project}}'
 
