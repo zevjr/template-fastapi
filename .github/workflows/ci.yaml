@@ -27,6 +27,4 @@ jobs:
           ls -l
           cd name-of-the-project
           poetry install --without doc
-
-      - name: Run tests
-        run: poetry run task test --cov-report=xml
+          poetry run task test
