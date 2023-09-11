@@ -7,8 +7,3 @@ Nossa API de cadastro de cartões de crédito foi concebida como uma solução s
 
 !!! info "Sobre este Guia"
     Este guia foi criado pra facilitar a compreensão de todos sobre a aplicação, caso surja alguma duvida entrar em contato com o dev responsavel.
-    [:fontawesome-brands-github:]({{ git.my }})
-
-{% include "templates/diagrama_base.md" %}
-{% include "templates/diagrama_fluxo.md" %}
-{% include "02_setup.md" %}
