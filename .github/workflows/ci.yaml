@@ -24,5 +24,7 @@ jobs:
           ls -l
           cookiecutter --no-input .
           cd name-of-the-project
-          make install
-          make test
+          poetry install --without doc
+
+      - name: Run tests
+        run: poetry run task test --cov-report=xml
